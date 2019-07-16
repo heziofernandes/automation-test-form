@@ -1,7 +1,8 @@
-# form-html-simple-project-cucumber
-html form to be used in "simple-project-cucumber"  and "ruby-cucumber-capybara" project
-It will be necessary to download this project and put the formautomacao.html main page so that tests can be run.
+# Automation Test Form
+## Form html to be used in any UI testing framework
 
--fernandes.bcc@gmail.com 
+## Instructions
+* cd  automation-html-form
+* npm install && npm start
+* Now, you can access: http://localhost:3000/
 
--https://www.linkedin.com/in/h%C3%A9zio-fernandes-b3962746?trk=nav_responsive_tab_profile.
