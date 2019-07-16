@@ -6,12 +6,13 @@
 
 ## Instructions
 
-### Start aplication 
+### Start the application 
 * docker-compose up
 * Now, you can access: http://localhost:3000/
-* Or docker-compose -d  for run in the background
+* Or docker-compose -d (for run in the background)
 
-### Stop aplication 
-* docker-compose stop
+### Stop the application 
+* Ctrl +c
+* docker-compose stop (If run in the background)
 
 
