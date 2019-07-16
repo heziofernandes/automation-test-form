@@ -1,6 +1,6 @@
 FROM node
 
 COPY . /src
-
-CMD ["tail", "-f", "/dev/null"]
+RUN npm install
+CMD ["npm", "start"]
 

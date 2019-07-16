@@ -9,3 +9,4 @@ services:
       - .:/src
     working_dir: /src
     command: tail -f /dev/null
+    command: bash -c "npm install && npm start"
