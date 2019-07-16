@@ -5,9 +5,13 @@
 * Docker
 
 ## Instructions
-* cd  automation-html-form
-* docker-compose up -d
-* docker-compose exec api bash
-* npm install && npm start
+
+### Start aplication 
+* docker-compose up
 * Now, you can access: http://localhost:3000/
+** Or docker-compose -d  for run in the background
+
+### Stop aplication 
+* docker-compose stop
+
 
