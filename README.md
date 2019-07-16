@@ -13,6 +13,6 @@
 
 ### Stop the application 
 * Ctrl +c
-* docker-compose stop (If run in the background)
+* docker-compose stop (if run in the background)
 
 
