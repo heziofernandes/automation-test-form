@@ -44,7 +44,7 @@
 
 			<div class="form-group">
 				<label for="nome">Name</label>
-				<input type="nome" class="form-control" id="name" placeholder="Enter Nome">
+				<input type="nome" class="form-control" id="name" placeholder="Enter Name" required>
 			</div>
 
 			<div class="form-group">
@@ -54,11 +54,11 @@
 
 			<div class="form-group">
 				<label for="passaword">Password</label>
-				<input type="password" class="form-control" id="password" placeholder="Password">
+				<input type="password" class="form-control" id="password" placeholder="Enter Password">
 			</div>
 			<div class="form-group">
 				<label for="email">Email</label>
-				<input type="email" class="form-control" id="email" placeholder="Enter Email">
+				<input type="email" class="form-control" id="email" placeholder="Enter Email" required>
 			</div>
 
 			<div class="form-group">
@@ -66,31 +66,31 @@
 				<input type="endereco" class="form-control" id="address" placeholder="Enter Address">
 			</div>
 			<div class="form-group">
-				<textarea class="form-control" id="reference-address" placeholder="Address" rows="3"></textarea>
+				<textarea class="form-control" id="address-details" placeholder="Address Details" rows="3"></textarea>
 			</div>
 
 
 			<div class="form-group clearfix">
 				<label class="col-md-12 pull-left">Education or Professional Training</label>
-				<div class="radio"  id="qa-radio">
+				<div class="education" id="qa-radio">
 					<label>
-						<input type="radio" name="optionsRadios" id="opt-tecnico" value="option1">
+						<input class="Technician" type="radio" value="Technician">
 						Technician
 					</label>
 					<label>
-						<input type="radio" name="optionsRadios" id="opt-bacharel" value="option2">
+						<input class="Bachelor" type="radio" value="Bachelor">
 						Bachelor
 					</label>
 					<label>
-						<input type="radio" name="optionsRadios" id="opt-posgraduado" value="option3">
+						<input class="Master degree" type="radio" value="Master degree">
 						Master degree  
 					</label>
 					<label>
-						<input type="radio" name="optionsRadios" id="opt-doutorado" value="option4">
+						<input class="Doctorate degree" type="radio" value="Doctorate degree">
 						Doctorate degree  
 					</label>
 					<label>
-						<input type="radio" name="optionsRadios" id="opt-highlander" value="option4">
+						<input class="Highlander" type="radio" value="Highlander">
 						Highlander
 					</label>
 				</div>
@@ -100,11 +100,11 @@
 				<label class="col-md-12 pull-left">Course</label>
 				<select class="form-control qa-select" id="qa-select">
 					<option>Select</option>
-					<option>Java</option>
-					<option>Java Script</option>
-					<option>Python</option>
-					<option>PHP</option>
-					<option>C#</option>
+					<option value="Java">Java</option>
+					<option value="Java Script">Java Script</option>
+					<option value="Python">Python</option>
+					<option value="PHP">PHP</option>
+					<option value="C#">C#</option>
 				</select>
 			</div>
 
@@ -118,7 +118,7 @@
 			<script>
 
 			</script>
-			<button id="btn-save" class="btn btn-default">Register</button>
+			<button id="btn-save" class="btn btn-default">Save</button>
 		</form>
 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
