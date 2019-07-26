@@ -2,6 +2,7 @@ version: "3"
 services:
   api:
     image: node
+    container_name: express-application-ui
     ports:
       - 3000:3000
     volumes: 
